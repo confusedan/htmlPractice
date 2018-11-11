@@ -24,6 +24,7 @@ lang=""             language to be declares in html
 
 <hr/>               horizontal rule, for thematic breaks
 <pre></pre>         maintains text-width, linebreaks
+<!-- -->            comment tag
 
 formating elements:
 <b>             bold text
