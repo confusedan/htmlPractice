@@ -1,0 +1,26 @@
+<html></html>       defines document
+<body></body>       defines document body
+<h1></h1>           defines heading
+<p></p>             defines paragraph
+End tags*
+<br />              line break
+<header></header>   header for particular component
+
+
+<head></head>       for meta data
+
+<a></a>             for html links
+href=""             html link address
+
+<img>               html image
+src=""              image source
+width=""            image width
+height=""           image height
+alt=""              alternative text when image is unavailable
+style=""            specify styling
+title=""            tooltip when component is hovered over
+
+lang=""             language to be declares in html
+
+<hr/>               horizontal rule, for thematic breaks
+<pre></pre>         maintains text-width, linebreaks
