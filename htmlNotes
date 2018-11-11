@@ -24,3 +24,22 @@ lang=""             language to be declares in html
 
 <hr/>               horizontal rule, for thematic breaks
 <pre></pre>         maintains text-width, linebreaks
+<!-- -->            comment tag
+
+formating elements:
+<b>             bold text
+<strong>        important text
+<i>             italics
+<em>            emphasized
+<mark>          marked
+<small>         small
+<del>           deleted
+<ins>           inserted
+<sub>           subscript
+<sup>           superscript
+<q>             short quotation
+<blockquote>    block of text quote use cite:"" to provide links
+<abbr>          abbreviate long group of words use title:"" for full words
+<address>       for contact info
+<cite>          for work title
+<bdo>           bi-directional override
