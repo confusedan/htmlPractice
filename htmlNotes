@@ -24,3 +24,15 @@ lang=""             language to be declares in html
 
 <hr/>               horizontal rule, for thematic breaks
 <pre></pre>         maintains text-width, linebreaks
+
+formating elements:
+<b>         bold text
+<strong>    important text
+<i>         italics
+<em>        emphasized
+<mark>      marked
+<small>     small
+<del>       deleted
+<ins>       inserted
+<sub>       subscript
+<sup>       superscript
