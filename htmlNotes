@@ -9,8 +9,25 @@ End tags*
 
 <head></head>       for meta data
 
+links
 <a></a>             for html links
-href=""             html link address
+href="url/*"        html link address
+href="*"            local link
+title=""            tooltip
+id=""               use id then href="id" to bookmark a part of the page
+<a><img/></a>       to use image as link
+links styles
+a:link              unvisited link
+a:visited           visited link
+a:hover             when mouse hovered over
+a:active            when link is active/open
+target=""
+target values
+_blank              opens link in new window/tab
+_self               opens link in same window/tab
+_parent             opens link in parent frame
+_top                opens link in full body of window
+framename           opens link in a named frame
 
 <img>               html image
 src=""              image source
