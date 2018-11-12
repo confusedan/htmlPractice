@@ -5,18 +5,32 @@
     <title>
         Page Title
     </title>
+    <!-- internal styling -->
+    <style>
+        body{
+            background-color: gray;
+            border: 5px double blueviolet;
+        }
+    </style>
+    <!-- external-->
+    <link rel="stylesheet" href="styles.css"/>
+
+    <!--
+        external reference 
+        <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+    -->
 </head>
 
-<body style="background-color:gray">
+<body>
     <h1 title="Most Important***" style="color: blueviolet">Heading 1</h1>
     <br />
     <img src="/stockImage/Practice.png" width="10%" height="10%"/>
     <img src="/stockImage/PrettiestGirl.png" width="10%" height="10%" alt="Not Found"/>
     <h2 style="text-align:center">Heading 2</h2>
-    <p style="color:chocolate"">Paragraph</p>
+    <p style="color:chocolate"" class="pclass01">Paragraph</p>
     <hr />
     <h3 style="border: 2px solid orange">Heading 3</h3>
-    <p style="font-size: 50px">This is another paragraph</p>
+    <p style="font-size: 50px" id="p01">This is another paragraph</p>
     <h4 style="border: 2px double greenyellow">Heading 4</h4>
     <pre style="color:gold">
         Oh Hi There
