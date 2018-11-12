@@ -29,6 +29,7 @@ _parent             opens link in parent frame
 _top                opens link in full body of window
 framename           opens link in a named frame
 
+images
 <img>               html image
 src=""              image source
 width=""            image width
@@ -77,3 +78,16 @@ formating elements:
 -Inline         direct to html elements
 -Internal       using <style> </style> in <head> section
 -External       import from external CSS
+
+Table
+<table>         if border not specified, it will be displayed without border 
+<th>            table header
+<tr>            table row
+<td>            table data
+colspan=""      for cells that span over multiple columns
+rowspan=""      for cells that span over multiple rows
+<caption>       add caption to table
+id=""           for special table styling
+
+table#t01 tr:nth-child(odd)     odd columns
+table#t01 tr:nth-child(even)    even columns

@@ -2,9 +2,15 @@ background-color                color of background
 color                           text color 140 standard color names
 font-size                       text size
 font-family                     type face for text
-text-alignment                  horizontal text alignment
+text-align                      horizontal text alignment
 border                          border styling
 text-decoration                 underline etc
 
 float                           for image, left or right of text
 background-image                use image as background
+
+border                          for table
+border-collapse                 merge borders between cells
+padding                         add cell padding
+text-align                      for text alignment in cell
+border-spacing                  spacing for border
