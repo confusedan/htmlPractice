@@ -43,3 +43,8 @@ formating elements:
 <address>       for contact info
 <cite>          for work title
 <bdo>           bi-directional override
+
+3 ways to style in html using CSS
+-Inline         direct to html elements
+-Internal       using <style> </style> in <head> section
+-External       import from external CSS

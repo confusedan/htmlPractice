@@ -1,0 +1,10 @@
+#p01{
+    border: 1px solid white;
+    padding: 30px 30px 30px 30px;
+    margin: 20px;
+}
+
+p.pclass01{
+    border: 1px solid black;
+    margin: 50px;
+}
