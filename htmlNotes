@@ -36,6 +36,18 @@ height=""           image height
 alt=""              alternative text when image is unavailable
 style=""            specify styling
 title=""            tooltip when component is hovered over
+usemap="name"       points to map with desired name
+<map>               image map
+name=""             associates image with map
+<area>              defines clicakble area
+shape=""            rect/circle/poly
+coords=""           x1,y1,x2,y2 (rect) x,y,radius(circle) x1,y1,x1,y1,...,xn,yn(poly)
+alt=""              text for area
+href=""             link for area
+<picture>           chooses best fit image from list for the window
+<source>            points to different images
+media="(min-width:)"condition for source
+srcset="url"        image choice 
 
 lang=""             language to be declares in html
 
