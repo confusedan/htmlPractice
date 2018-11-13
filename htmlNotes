@@ -138,3 +138,6 @@ no whitespace, with at least 1 character
 can be used for any html elements
 case sensitive
 referenced with a # in front
+
+<iframe>        defines an inline frame
+used to display another html file/webpage
