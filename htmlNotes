@@ -121,3 +121,20 @@ Inline Level elements   Does not start on new line
 <cite>  <code>      <dfn>           <em>        <i>             <img>       <input>     <kbd>
 <label> <map>       <object>        <q>         <samp>          <script>    <select>    <small>
 <span>  <strong>    <sub>           <sup>       <textarea>      <time>      <tt>        <var>
+
+class attribute
+class=""
+used for many other tags
+can be used for any html elements
+case sensitive
+referenced with a . infront
+
+id attribute
+id=""
+only one single tag
+unique
+can be used as bookmark for pages
+no whitespace, with at least 1 character
+can be used for any html elements
+case sensitive
+referenced with a # in front
