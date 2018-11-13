@@ -8,9 +8,12 @@ text-decoration                 underline etc
 
 float                           for image, left or right of text
 background-image                use image as background
+align                           alignment of image
 
 border                          for table
 border-collapse                 merge borders between cells
 padding                         add cell padding
 text-align                      for text alignment in cell
 border-spacing                  spacing for border
+
+list-style-type                 disc/circle/square/none
