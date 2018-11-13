@@ -4,14 +4,32 @@
 <p></p>             defines paragraph
 End tags*
 <br />              line break
-<header></header>   header for particular component
+<header></header>   header for particular
 
 
 <head></head>       for meta data
 
+links
 <a></a>             for html links
-href=""             html link address
+href="url/*"        html link address
+href="*"            local link
+title=""            tooltip
+id=""               use id then href="id" to bookmark a part of the page
+<a><img/></a>       to use image as link
+links styles
+a:link              unvisited link
+a:visited           visited link
+a:hover             when mouse hovered over
+a:active            when link is active/open
+target=""
+target values
+_blank              opens link in new window/tab
+_self               opens link in same window/tab
+_parent             opens link in parent frame
+_top                opens link in full body of window
+framename           opens link in a named frame
 
+images
 <img>               html image
 src=""              image source
 width=""            image width
@@ -19,6 +37,18 @@ height=""           image height
 alt=""              alternative text when image is unavailable
 style=""            specify styling
 title=""            tooltip when component is hovered over
+usemap="name"       points to map with desired name
+<map>               image map
+name=""             associates image with map
+<area>              defines clicakble area
+shape=""            rect/circle/poly
+coords=""           x1,y1,x2,y2 (rect) x,y,radius(circle) x1,y1,x1,y1,...,xn,yn(poly)
+alt=""              text for area
+href=""             link for area
+<picture>           chooses best fit image from list for the window
+<source>            points to different images
+media="(min-width:)"condition for source
+srcset="url"        image choice 
 
 lang=""             language to be declares in html
 
@@ -40,11 +70,41 @@ formating elements:
 <q>             short quotation
 <blockquote>    block of text quote use cite:"" to provide links
 <abbr>          abbreviate long group of words use title:"" for full words
+<acronym>       acronym
 <address>       for contact info
 <cite>          for work title
 <bdo>           bi-directional override
+<code>          computer code
+<kbd>           keyboard input
+<tt>            teletype text
+<samp>          sample text
+<var>           computer variable
+<dfn>           definition of term
 
 3 ways to style in html using CSS
 -Inline         direct to html elements
 -Internal       using <style> </style> in <head> section
 -External       import from external CSS
+
+Table
+<table>         if border not specified, it will be displayed without border 
+<th>            table header
+<tr>            table row
+<td>            table data
+colspan=""      for cells that span over multiple columns
+rowspan=""      for cells that span over multiple rows
+<caption>       add caption to table
+id=""           for special table styling
+
+table#t01 tr:nth-child(odd)     odd columns
+table#t01 tr:nth-child(even)    even columns
+
+Lists
+<ul>            unordered list
+<ol>            ordered list
+start=""        controls start of pointer
+type=""         1/a/A/i/I order type
+<li>            items in list
+<dl>            description list
+<dt>            name of item
+<dd>            description of item
