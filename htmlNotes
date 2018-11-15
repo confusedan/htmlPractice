@@ -141,3 +141,6 @@ referenced with a # in front
 
 <iframe>        defines an inline frame
 used to display another html file/webpage
+
+<script>        defines client side script
+<noscript>      defines alternate content for javascript disabled users
