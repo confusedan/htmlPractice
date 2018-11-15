@@ -13,7 +13,8 @@
         }
     </style>
     <!-- external-->
-    <link rel="stylesheet" href="/styles/styles.css"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--
         external reference 
@@ -29,10 +30,10 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
     </ul>
-    <iframe src="/otherPages/page1.html" class="sideBar"></iframe>
+    <iframe src="otherPages/page1.html" class="sideBar"></iframe>
     <br />
-    <img src="/stockImage/Practice.png" width="10%" height="10%"/>
-    <img src="/stockImage/PrettiestGirl.png" width="10%" height="10%" alt="Not Found"/>
+    <img src="stockImage/Practice.png" width="10%" height="10%"/>
+    <img src="stockImage/PrettiestGirl.png" width="10%" height="10%" alt="Not Found"/>
     <h2 style="text-align:center">Heading 2</h2>
     <p style="color:chocolate"" class="pclass01">Paragraph</p>
     <hr />
@@ -107,7 +108,7 @@
                 WHAT ARE ALL THESE QUOTES
                 Lets go to google to find out
             </blockquote>
-            <abbr title="This is a Fake Abbreviation">TIAFA</abbr><br>
+            <abbr title="This is a Fake Abbreviation" id="scriptTest">TIAFA</abbr><br>
             <bdo dir="rtl">HERE IS A BDO EXAMPLE</bdo>
         </address>
     </p>
@@ -117,5 +118,9 @@
     <p><a href="#pageTop">Return to top</a></p>
     <p><cite>My Page</cite> by me from tutorial 2018</p>
 </body>
+
+<script>
+    document.getElementById("scriptTest").style.fontSize = "100px";
+</script>
 
 </html>
