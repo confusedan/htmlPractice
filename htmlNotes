@@ -144,3 +144,10 @@ used to display another html file/webpage
 
 <script>        defines client side script
 <noscript>      defines alternate content for javascript disabled users
+
+absolute file path      insert full url
+
+relative file path
+/image/pictures.jpg     image folder located at root of current web
+image/pictures.jpg      image folder located in current folder
+../image/picture.jpg    image folder located one folder above
