@@ -151,3 +151,23 @@ relative file path
 /image/pictures.jpg     image folder located at root of current web
 image/pictures.jpg      image folder located in current folder
 ../image/picture.jpg    image folder located one folder above
+
+<head>                  describes meta data
+List of meta data tags
+
+<title>                 defines title in browser tab/ page when added to favourites/ title in search results
+<style>                 defines style for single html page
+<meta>                  specify which character set is used, page description, keywords, author, and other metadata
+charset="UTF-8"         character set used
+name="description"      defines description for web
+content="free web tut"
+name="keywords"         defines keywords for search engines
+content="HTML CSS ..."
+name="author"           defines author of page
+content=""
+http-equiv="refresh"    refresh page every 30sec
+content="30"
+
+<link>                  to link external stylesheets
+<script>
+<base>                  specifies the base URL and base target for all relative URLs in a page
