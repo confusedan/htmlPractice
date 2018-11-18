@@ -182,3 +182,12 @@ html Layout
 <footer>
 
 specific styling and design done using CSS
+
+html Responsive
+<meta name="viewport" content="width=device-width, initial-scale=1.0">      checks device width
+responsive image
+width                                                                       use % instead of exact values like px
+max-width                                                                   if set to 100%, will never scale up, only scale down
+<picture>                                                                   define different images fo different window size
+vw                                                                          used for text(viewport width)
+@media screen and (max-width: 800px)                                        media query to set size, stop query if window smaller than 800px
