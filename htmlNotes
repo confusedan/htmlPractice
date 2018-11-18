@@ -171,3 +171,14 @@ content="30"
 <link>                  to link external stylesheets
 <script>
 <base>                  specifies the base URL and base target for all relative URLs in a page
+
+
+html Layout
+
+<header>
+<nav>
+<section>       |   <aside>
+<article>       |   
+<footer>
+
+specific styling and design done using CSS
