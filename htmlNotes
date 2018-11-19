@@ -111,33 +111,34 @@ type=""         1/a/A/i/I order type
 
 
 Block Level elements    Takes up whole space from left to right, starts on new line
-<div>   <address>   <article>       <aside>     <blockquote>    <canvas>    <dd>        <dl>
-<dt>    <fieldset>  <figcaption>    <figure>    <footer>        <form>      <h1>-<h6>   <header>
-<hr>    <li>        <main>          <nav>       <noscript>      <ol>        <output>    <p>
-<pre>   <section>   <table>         <tfoot>     <ul>            <video>
+    <div>   <address>   <article>       <aside>     <blockquote>    <canvas>    <dd>        <dl>
+    <dt>    <fieldset>  <figcaption>    <figure>    <footer>        <form>      <h1>-<h6>   <header>
+    <hr>    <li>        <main>          <nav>       <noscript>      <ol>        <output>    <p>
+    <pre>   <section>   <table>         <tfoot>     <ul>            <video>
 
 Inline Level elements   Does not start on new line
-<a>     <abbr>      <acronym>       <b>         <bdo>           <big>       <br>        <button>
-<cite>  <code>      <dfn>           <em>        <i>             <img>       <input>     <kbd>
-<label> <map>       <object>        <q>         <samp>          <script>    <select>    <small>
-<span>  <strong>    <sub>           <sup>       <textarea>      <time>      <tt>        <var>
+    <a>     <abbr>      <acronym>       <b>         <bdo>           <big>       <br>        <button>
+    <cite>  <code>      <dfn>           <em>        <i>             <img>       <input>     <kbd>
+    <label> <map>       <object>        <q>         <samp>          <script>    <select>    <small>
+    <span>  <strong>    <sub>           <sup>       <textarea>      <time>      <tt>        <var>
 
 class attribute
 class=""
-used for many other tags
-can be used for any html elements
-case sensitive
-referenced with a . infront
+    used for many other tags
+    can be used for any html elements
+    case sensitive
+    referenced with a . infront
 
 id attribute
 id=""
-only one single tag
-unique
-can be used as bookmark for pages
-no whitespace, with at least 1 character
-can be used for any html elements
-case sensitive
-referenced with a # in front
+    only one single tag
+    unique
+    can be used as bookmark for pages
+    no whitespace, with at least 1 character
+    can be used for any html elements
+    case sensitive
+    referenced with a # in front
+
 
 <iframe>        defines an inline frame
 used to display another html file/webpage
@@ -148,9 +149,9 @@ used to display another html file/webpage
 absolute file path      insert full url
 
 relative file path
-/image/pictures.jpg     image folder located at root of current web
-image/pictures.jpg      image folder located in current folder
-../image/picture.jpg    image folder located one folder above
+    /image/pictures.jpg     image folder located at root of current web
+    image/pictures.jpg      image folder located in current folder
+    ../image/picture.jpg    image folder located one folder above
 
 <head>                  describes meta data
 List of meta data tags
@@ -202,3 +203,30 @@ html charsets differences
 refer to
 https://www.w3schools.com/html/html_charset.asp
 
+<form>              defines form to collect user input
+action=""           defines the action to be performed when a form is submitted
+target=""           specifies if results will open in new window
+                    _blank/_top/_parent/_self/a name of iframe
+    _blank              opens in new browser window
+    _top                opens in the current browser window
+    _parent             opens in the current browser window
+    _self               opens in the frame itself
+method=""           specifies HTTP method GET/POST
+    GET                 form data will be visible in page address
+        Appends form-data into the URL in name/value pairs
+        The length of a URL is limited (about 3000 characters)
+        Never use GET to send sensitive data! (will be visible in the URL)
+        Useful for form submissions where a user wants to bookmark the result
+        GET is better for non-secure data, like query strings in Google
+    POST                form data not visible in page address
+        POST has no size limitations, and can be used to send large amounts of data.
+        Form submissions with POST cannot be bookmarked
+<input>             defines input for form
+type=""             text/radio/submit
+    text                for text input
+    radio               radio button, like check box
+    submit              defines button for submitting form to form handler
+
+name=""             names the variable/column the input is stored as if not available, the input will not be sent
+<fieldset>          used to group input in forms
+<legend>            caption for the fieldset
