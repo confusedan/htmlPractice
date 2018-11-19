@@ -228,5 +228,22 @@ type=""             text/radio/submit
     submit              defines button for submitting form to form handler
 
 name=""             names the variable/column the input is stored as if not available, the input will not be sent
+list=""             references a datalist
 <fieldset>          used to group input in forms
 <legend>            caption for the fieldset
+<select>            defines dropdown list
+    name=""             name of list
+    size=""             number of visible values
+    multiple            allows selection of more than one value
+<option>            options in dropdown list
+    values=""           
+    selected            preselected
+<textarea>          multiline input field
+    name=""             name of textfield
+    rows=""             number of rows
+    cols=""             number of columns
+<button>
+    type=""             type of button
+    onclick=""          what happens when clicked
+<datalist>          predefined options for input, just give it and id then reference from input
+<output>            performs calculation and shows results
