@@ -283,3 +283,20 @@ required(html5)     input is required
 size                width of an input field
 step(html5)         specifies legal number intervals for an input field
 value               specifies default value
+
+html5 input attributes
+autocomplete        specify if field should have autocomplete on or off
+novalidate          form data should not be validated when submitted
+autofocus           input field should get focus when page loads
+form                specifies one or more forms that the input variable belongs to
+    formaction          
+    formenctype         
+    formmethod
+    formnovalidate
+    formtarget
+height/width        use to specify size of image used as button
+list                a <datalist> element that contains pre-defined options for an <input> element
+multiple            attribute specifies that the user is allowed to enter more than one value in the <input> element.
+pattern             attribute specifies a regular expression that the <input> element's value is checked against.
+placeholder         specifies a hint that describes the expected value of an input field (a sample value or a short description of the format)
+
