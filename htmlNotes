@@ -111,33 +111,34 @@ type=""         1/a/A/i/I order type
 
 
 Block Level elements    Takes up whole space from left to right, starts on new line
-<div>   <address>   <article>       <aside>     <blockquote>    <canvas>    <dd>        <dl>
-<dt>    <fieldset>  <figcaption>    <figure>    <footer>        <form>      <h1>-<h6>   <header>
-<hr>    <li>        <main>          <nav>       <noscript>      <ol>        <output>    <p>
-<pre>   <section>   <table>         <tfoot>     <ul>            <video>
+    <div>   <address>   <article>       <aside>     <blockquote>    <canvas>    <dd>        <dl>
+    <dt>    <fieldset>  <figcaption>    <figure>    <footer>        <form>      <h1>-<h6>   <header>
+    <hr>    <li>        <main>          <nav>       <noscript>      <ol>        <output>    <p>
+    <pre>   <section>   <table>         <tfoot>     <ul>            <video>
 
 Inline Level elements   Does not start on new line
-<a>     <abbr>      <acronym>       <b>         <bdo>           <big>       <br>        <button>
-<cite>  <code>      <dfn>           <em>        <i>             <img>       <input>     <kbd>
-<label> <map>       <object>        <q>         <samp>          <script>    <select>    <small>
-<span>  <strong>    <sub>           <sup>       <textarea>      <time>      <tt>        <var>
+    <a>     <abbr>      <acronym>       <b>         <bdo>           <big>       <br>        <button>
+    <cite>  <code>      <dfn>           <em>        <i>             <img>       <input>     <kbd>
+    <label> <map>       <object>        <q>         <samp>          <script>    <select>    <small>
+    <span>  <strong>    <sub>           <sup>       <textarea>      <time>      <tt>        <var>
 
 class attribute
 class=""
-used for many other tags
-can be used for any html elements
-case sensitive
-referenced with a . infront
+    used for many other tags
+    can be used for any html elements
+    case sensitive
+    referenced with a . infront
 
 id attribute
 id=""
-only one single tag
-unique
-can be used as bookmark for pages
-no whitespace, with at least 1 character
-can be used for any html elements
-case sensitive
-referenced with a # in front
+    only one single tag
+    unique
+    can be used as bookmark for pages
+    no whitespace, with at least 1 character
+    can be used for any html elements
+    case sensitive
+    referenced with a # in front
+
 
 <iframe>        defines an inline frame
 used to display another html file/webpage
@@ -148,9 +149,9 @@ used to display another html file/webpage
 absolute file path      insert full url
 
 relative file path
-/image/pictures.jpg     image folder located at root of current web
-image/pictures.jpg      image folder located in current folder
-../image/picture.jpg    image folder located one folder above
+    /image/pictures.jpg     image folder located at root of current web
+    image/pictures.jpg      image folder located in current folder
+    ../image/picture.jpg    image folder located one folder above
 
 <head>                  describes meta data
 List of meta data tags
@@ -201,4 +202,101 @@ https://www.w3schools.com/html/html_entities.asp
 html charsets differences
 refer to
 https://www.w3schools.com/html/html_charset.asp
+
+<form>              defines form to collect user input
+action=""           defines the action to be performed when a form is submitted
+target=""           specifies if results will open in new window
+                    _blank/_top/_parent/_self/a name of iframe
+    _blank              opens in new browser window
+    _top                opens in the current browser window
+    _parent             opens in the current browser window
+    _self               opens in the frame itself
+method=""           specifies HTTP method GET/POST
+    GET                 form data will be visible in page address
+        Appends form-data into the URL in name/value pairs
+        The length of a URL is limited (about 3000 characters)
+        Never use GET to send sensitive data! (will be visible in the URL)
+        Useful for form submissions where a user wants to bookmark the result
+        GET is better for non-secure data, like query strings in Google
+    POST                form data not visible in page address
+        POST has no size limitations, and can be used to send large amounts of data.
+        Form submissions with POST cannot be bookmarked
+<input>             defines input for form
+type=""             text/radio/submit
+    text                for text input
+    radio               radio button, like check box
+    submit              defines button for submitting form to form handler
+
+name=""             names the variable/column the input is stored as if not available, the input will not be sent
+list=""             references a datalist
+<fieldset>          used to group input in forms
+<legend>            caption for the fieldset
+<select>            defines dropdown list
+    name=""             name of list
+    size=""             number of visible values
+    multiple            allows selection of more than one value
+<option>            options in dropdown list
+    values=""           
+    selected            preselected
+<textarea>          multiline input field
+    name=""             name of textfield
+    rows=""             number of rows
+    cols=""             number of columns
+<button>
+    type=""             type of button
+    onclick=""          what happens when clicked
+<datalist>          predefined options for input, just give it and id then reference from input
+<output>            performs calculation and shows results
+
+HTML input types (<input = type="">)
+text                one-line text input
+password            password field
+submit              button for submitting data to form-handler
+reset               reset all values to default values in form
+radio               radio button, only one selection in list/form
+checkbox            defines checkbox which allows users to choose 0 or more from choices
+button              defines a button, actions onclick="" can be defined
+
+HTML5 input types
+color               input fields that should contain color
+date                fields that should contain date, use min/max attributes to set boundary
+datetime-local      specifies date and time with no timezones
+email               for input that should contain email, some keyboards on smartphones will display .com
+file                defines a file-select field and a browse for upload
+month               allows a user to select month and year
+number              defines a numeric input field
+range               defines a control for entering a number whose exact value is not important
+search              used for search fields
+tel                 input should be a teletype number
+time                selection of time, no timezones
+url                 input should match url format
+week                allows user to select week/year
+
+input restrictions
+disabled            specifies the input field should be disabled
+max(html5)          max value for input field
+maxlength           maximum number of characters for input
+min(html5)          minimum value for input field
+pattern             specifies a regular expression to check input with
+readonly            input field is read only
+required(html5)     input is required
+size                width of an input field
+step(html5)         specifies legal number intervals for an input field
+value               specifies default value
+
+html5 input attributes
+autocomplete        specify if field should have autocomplete on or off
+novalidate          form data should not be validated when submitted
+autofocus           input field should get focus when page loads
+form                specifies one or more forms that the input variable belongs to
+    formaction          
+    formenctype         
+    formmethod
+    formnovalidate
+    formtarget
+height/width        use to specify size of image used as button
+list                a <datalist> element that contains pre-defined options for an <input> element
+multiple            attribute specifies that the user is allowed to enter more than one value in the <input> element.
+pattern             attribute specifies a regular expression that the <input> element's value is checked against.
+placeholder         specifies a hint that describes the expected value of an input field (a sample value or a short description of the format)
 
