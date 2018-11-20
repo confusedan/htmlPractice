@@ -247,3 +247,39 @@ list=""             references a datalist
     onclick=""          what happens when clicked
 <datalist>          predefined options for input, just give it and id then reference from input
 <output>            performs calculation and shows results
+
+HTML input types (<input = type="">)
+text                one-line text input
+password            password field
+submit              button for submitting data to form-handler
+reset               reset all values to default values in form
+radio               radio button, only one selection in list/form
+checkbox            defines checkbox which allows users to choose 0 or more from choices
+button              defines a button, actions onclick="" can be defined
+
+HTML5 input types
+color               input fields that should contain color
+date                fields that should contain date, use min/max attributes to set boundary
+datetime-local      specifies date and time with no timezones
+email               for input that should contain email, some keyboards on smartphones will display .com
+file                defines a file-select field and a browse for upload
+month               allows a user to select month and year
+number              defines a numeric input field
+range               defines a control for entering a number whose exact value is not important
+search              used for search fields
+tel                 input should be a teletype number
+time                selection of time, no timezones
+url                 input should match url format
+week                allows user to select week/year
+
+input restrictions
+disabled            specifies the input field should be disabled
+max(html5)          max value for input field
+maxlength           maximum number of characters for input
+min(html5)          minimum value for input field
+pattern             specifies a regular expression to check input with
+readonly            input field is read only
+required(html5)     input is required
+size                width of an input field
+step(html5)         specifies legal number intervals for an input field
+value               specifies default value
